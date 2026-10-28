@@ -1,0 +1,143 @@
+
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="module" src="script.js"></script>
+        <meta charset="UTF-8">
+    </head>
+
+    <body class="background">
+        <div class="top">
+            <p class="time" 
+            id="timeElement"> 
+                time :p
+            </p>
+            <script>
+                setInterval(function () {
+                    document.querySelector("#timeElement").innerHTML = new Date().toLocaleString();
+                }, 1000);
+            </script>
+            <p class="otherone" 
+            id="welcomeopen">
+            willieandlueOS
+            </p>
+        </div>
+
+        <div class="instahandle">
+            check them out! ~ instagram: @willienadlue
+        </div>
+     
+        <div class="WELCOME"
+        id="welcome"> 
+            <div class="welcomeheader" 
+            id="welcomeheader">
+                <div class="closebutton" 
+                id="welcomeclose">
+                        <span class="Xmark">
+                                X
+                        </span>
+                </div>
+            </div>
+
+            <div class="innerwindow">
+                <img class="image" src="Screenshot 2026-08-02 224323.png" >
+                <h1 class="titletext">
+                    willielueOS
+                </h1>
+                <p class="description1">
+                    ⋆˚࿔ hi and welcome to willie and lue's webOS! ⋆˚࿔
+                </p>
+            </div>
+        </div>
+
+        <div class= "lueicon" id="LueIconContainer">
+            <div class="lueapp" style="padding: 16px;"> 
+                <img class=luewindowimage src="./lue.png">
+                <p style="margin: 0px; color: #23124b; font-weight: bold;
+                font-family: 'Courier New', Courier, monospace; font-size: medium;">
+                    <strong>⊹lue</strong>
+                </p>
+            </div>
+        </div>
+            
+        <div class= "luebigwindow" id="LueWindow">
+            <div class="windowheader" id="lueheader">
+                <span><strong>about lue!!</strong></span>  
+                <div class="closebutton1" id="lueclose" 
+                style="cursor: pointer; font-weight: bold; padding: 2px 6px;
+                background:rgb(0, 0, 0, 0.2); border-radius: 3px;">
+                    X 
+                </div>
+            </div>
+
+            <div class="windowcontent">
+                <p style="margin: 0 0 12px 0">woahh info about lue!!</p>
+                <img src="./lue.png" style="width: 80px; height: 80px; border-radius: 4px;">
+                <div id="sidebar"></div>
+                <div id="lueinfo"></div>
+            </div>
+
+        </div>
+
+        <div class="willieicon" id="WillieIconContainer">
+            <div class="willieapp" style="padding: 16px;"> 
+                <img class=williewindowimage src="./willie.png">
+                <p style="margin: 0px; color: #200a53; font-weight: bold;
+                font-family: 'Courier New', Courier, monospace; font-size: medium;">
+                    <strong>⊹willie</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="williebigwindow" id="WillieWindow">
+            <div class="williewindowheader" id="willieheader">
+                <span><strong>about willie!!</strong></span>  
+                <div class="closebutton2" id="willieclose" 
+                style="cursor: pointer; font-weight: bold; padding: 2px 6px;
+                background:rgb(0, 0, 0, 0.2); border-radius: 3px;">
+                    X 
+                </div>
+            </div>
+
+            <div class="williewindowcontent">
+                <p style="margin: 0 0 12px 0">woahh info about willie!!</p>
+                <img src="./willie.png" style="width: 80px; height: 80px; border-radius: 4px; 
+                justify-content: center;">
+                <div id="sidebar1"></div>
+                <div id="willieinfo"></div>
+            </div>
+        
+        </div>
+
+        <div class="adventureicon" id="randomadventureIcon">
+            <div class="randomadventureapp" style="padding: 16px;"> 
+                <img class=randomwindowimage src="./Screenshot 2026-10-28 014016.png">
+                <p style="margin: 0px; color: #200a53; font-weight: bold;
+                font-family: 'Courier New', Courier, monospace; font-size: medium;">
+                    <strong>⊹adventure randomizer</strong>
+                </p>
+            </div>
+        </div>
+        
+        <div class="randomwindow" id="adventureWindow">
+            <div class="randomheader" id="adventureheader">
+                <span><strong>random adventure!!</strong></span>
+                <div class="closebutton2" id="adventureclose" 
+                style="cursor: pointer; font-weight: bold; padding: 2px 6px;
+                background:rgb(0, 0, 0, 0.2); border-radius: 4px;">
+                    X 
+                </div>
+            </div>
+
+            <div class="randomwindowcontent" id="randomcontent">
+                <p>here's your random adventure!!</p>
+                <img id="randomeadventureimg" scr="">
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
+
