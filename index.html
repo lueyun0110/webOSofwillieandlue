@@ -1,0 +1,258 @@
+
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="module" src="script.js"></script>
+        <meta charset="UTF-8">
+    </head>
+
+    <body class="background">
+        <div class="top">
+            <p class="time" 
+            id="timeElement"> 
+                time :p
+            </p>
+            <script>
+                setInterval(function () {
+                    document.querySelector("#timeElement").innerHTML = new Date().toLocaleString();
+                }, 1000);
+            </script>
+            <p class="otherone" 
+            id="welcomeopen">
+            willieandlueOS
+            </p>
+        </div>
+
+        <div class="instahandle">
+            check them out! ~ instagram: @willieandlue
+        </div>
+     
+        <div class="WELCOME"
+        id="welcome"> 
+            <div class="welcomeheader" 
+            id="welcomeheader">
+                <div class="closebutton" 
+                id="welcomeclose">
+                        <span class="Xmark">
+                                X
+                        </span>
+                </div>
+            </div>
+
+            <div class="innerwindow">
+                <img class="image" src="Screenshot 2026-08-02 224323.png" >
+                <h1 class="titletext">
+                    willie&lueOS
+                </h1>
+                <p class="description1">
+                    ⋆˚࿔ hi and welcome to willie and lue's webOS! ⋆˚࿔
+                </p>
+            </div>
+        </div>
+
+        <div class= "lueicon" id="LueIconContainer">
+            <div class="lueapp" style="padding: 16px;"> 
+                <img class=luewindowimage src="./lue.png">
+                <p style="margin: 0px; color: #23124b; font-weight: bold;
+                font-family: 'Courier New', Courier, monospace; font-size: medium;">
+                    <strong>⊹lue</strong>
+                </p>
+            </div>
+        </div>
+            
+        <div class= "luebigwindow" id="LueWindow">
+            <div class="windowheader" id="lueheader">
+                <span><strong>about lue!!</strong></span>  
+                <div class="closebutton1" id="lueclose" 
+                style="cursor: pointer; font-weight: bold; padding: 2px 6px;
+                background:rgb(0, 0, 0, 0.2); border-radius: 3px;">
+                    X 
+                </div>
+            </div>
+
+            <div class="windowcontent">
+                <p style="margin: 0 0 12px 0">woahh info about lue!!</p>
+                <img src="./lue.png" style="width: 80px; height: 80px; border-radius: 4px;">
+                <div id="sidebar"></div>
+                <div id="lueinfo"></div>
+            </div>
+
+        </div>
+
+        <div class="willieicon" id="WillieIconContainer">
+            <div class="willieapp" style="padding: 16px;"> 
+                <img class=williewindowimage src="./willie.png">
+                <p style="margin: 0px; color: #200a53; font-weight: bold;
+                font-family: 'Courier New', Courier, monospace; font-size: medium;">
+                    <strong>⊹willie</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="williebigwindow" id="WillieWindow">
+            <div class="williewindowheader" id="willieheader">
+                <span><strong>about willie!!</strong></span>  
+                <div class="closebutton2" id="willieclose" 
+                style="cursor: pointer; font-weight: bold; padding: 2px 6px;
+                background:rgb(0, 0, 0, 0.2); border-radius: 3px;">
+                    X 
+                </div>
+            </div>
+
+            <div class="williewindowcontent">
+                <p style="margin: 0 0 12px 0">woahh info about willie!!</p>
+                <img src="./willie.png" style="width: 80px; height: 80px; border-radius: 4px; 
+                justify-content: center;">
+                <div id="sidebar1"></div>
+                <div id="willieinfo"></div>
+            </div>
+        
+        </div>
+
+        <div class="adventureicon" id="randomadventureIcon">
+            <div class="randomadventureapp" style="padding: 16px;"> 
+                <img class=randomwindowimage src="./Screenshot 2026-10-28 014016.png">
+                <p style="margin: 0px; color: #23124b; font-weight: bold;
+                font-family: 'Courier New', Courier, monospace; font-size: medium;">
+                    <strong>⊹adventure logs</strong>
+                </p>
+            </div>
+        </div>
+        
+        <div class="randomwindow" id="adventureWindow">
+            <div class="randomheader" id="adventureheader">
+                <span><strong>adventure logs!!</strong></span>
+                <div class="closebutton2" id="adventureclose" 
+                style="cursor: pointer; font-weight: bold; padding: 2px 6px;
+                background:rgb(0, 0, 0, 0.2); border-radius: 4px;">
+                    X 
+                </div>
+        </div>
+
+            <div class="randomwindowcontent" id="randomcontent">
+                <p style="color:#3a420d; font-weight: bold;">here are some of their recent adventure logs!!</p>
+                <img src="./accretionwillieandlue.png" id="randomadventureimg">
+                <img src="./artemismoonwillieandlue.png" id="randomadventureimg">
+                <img src="./mantaraywillieandlue.png" id="randomadventureimg">
+                <img src="./starbeach.png" id="randomadventureimg">
+                <img src="./sunwillieandlue.png" id="randomadventureimg">
+                <img src="./moon.png" id="randomadventureimg">
+            </div>
+        </div>
+
+        <div class="notesicon" id="notesIcon">
+            <div class="noteapp" style="padding: 16px;"> 
+                <img class="notesimage" src="./noteswillielue.png">
+                <p style="margin: 0px; color: #23124b; font-weight: bold;
+                font-family: 'Courier New', Courier, monospace; font-size: medium;">
+                    <strong>⊹notes</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="noteswindow" id="notesWindow">
+            
+            <div class="notesheader" id="notesheader">
+                <span><strong>notes!!</strong></span>
+                <div class="closebutton3" id="notesclose" style="cursor: pointer; font-weight: bold; padding: 2px 6px; background: rgba(0, 0, 0, 0.2); border-radius: 4px;">
+                    X 
+                </div>
+            </div>
+
+            <div class="noteswindowcontent" id="notescontent" style="padding: 16px; background: white;">
+                <p style="color:#e693c3; font-weight: bold; font-family: monospace; margin: 0 0 8px 0;">write down any notes!!</p>
+                    <div style="padding: 4px; min-height: 120px; 
+                    font-family: monospace; outline: none; 
+                    width: 100%; box-sizing: border-box" contenteditable="true">
+                    <span>write here!!</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="audio">
+            <audio id="myAudio" controls>
+                <source src="Bark Fart Sound Effect.mp3" type="audio/mpeg">
+            </audio>
+
+            <script>
+                function playAudio() {
+                    var audio = document.getElementById("myAudio");
+                    audio.play();
+                }
+            </script>
+        </div>
+
+        <div class="audiobutton">
+            <button onclick="playAudio()" >play sound! (jumpscare warning)</button>
+        </div>
+
+        <div class="jokesicon" id="jokesIcon">
+            <div class="jokesapp" style="padding: 16px;"> 
+                <img class=jokesimage src="./weatherwillielue.png">
+                <p style="margin: 0px; color: #23124b; font-weight: bold;
+                font-family: 'Courier New', Courier, monospace; font-size: medium;">
+                    <strong>⊹jokes</strong>
+                </p>
+            </div>
+        </div>
+        
+        <div class="jokeswindow" id="jokesWindow">
+            <div class="jokesheader" id="jokesheader">
+                <span><strong>funny jokes!!</strong></span>
+                <div class="closebutton4" id="jokesclose" 
+                style="cursor: pointer; font-weight: bold; padding: 2px 6px;
+                background:rgb(0, 0, 0, 0.2); border-radius: 4px;">
+                    X 
+                </div>
+            </div>
+
+            <div class="jokeswindowcontent" id="jokescontent">
+                <p style="color:#3a420d; font-weight: bold;">
+                    have a cackle with willie's and lue's favorite jokes!!
+                    <br>
+                    <br>
+                    (yes the icon was intentional)
+                </p>
+                <p>
+                    #1: why did the people not like the restaurant on the moon?
+                    <br>
+                    - because there was no atmosphere.
+                    <br>
+                    <br>
+                    #2: how do Earth, Saturn, and Neptune organize a party? 
+                    <br>
+                    - they plan-et.
+                    <br>
+                    <br>
+                    #3: why didn't the sun go to college? 
+                    <br>
+                    - because it already had a million degrees.
+                    <br>
+                    <br>
+                    #4: what do starlets like to read before bed?
+                    <br>
+                    - comet books!
+                    <br>
+                    <br>
+                    #5: why couldn't the star stay focused?
+                    <br>
+                    - it kept spacing out.
+                    <br>
+                    <br>
+                    #6: what insect can you expect to find on the moon?
+                    <br>
+                    - a lunar-tick.
+
+                </p>
+
+            </div>
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
+
